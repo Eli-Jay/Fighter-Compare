@@ -24,7 +24,7 @@ jobs:
       - name: Build app
         run: |
           pyinstaller --noconfirm --clean --windowed --name "FighterCompare" \
-            --add-data "fighters.ui:." \
+            --add-data "fighter.ui:." \
             --add-data "fighters.csv:." \
             FighterCompare.py
 
